@@ -1,0 +1,28 @@
+ .container{
+        background-color: aquamarine;
+
+    }
+.box{
+        display: inline-block;
+        padding: 10px;
+    }
+.navbar ol li{
+    
+    display: inline;
+    }
+
+.list{
+    background-color: aqua;
+}
+.navbar ol li a{
+    text-decoration: none;
+}
+.youtube{
+    background-color: rgb(248, 66, 66);
+}
+.facebook{
+    background-color: chocolate;
+}
+.twitter{
+    background-color: rgb(181, 117, 21);
+}

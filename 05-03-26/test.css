@@ -1,0 +1,19 @@
+.navbar ol li{
+    display: inline-block;
+    background-color: bisque;
+    
+    
+}
+.navbar ol li a{
+    text-decoration: none;
+}
+table{
+    background-color: aquamarine;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
