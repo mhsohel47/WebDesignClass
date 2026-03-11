@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .top{
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+.header .lower-top{
+    background-color: antiquewhite;
+    text-align: justify;
+    padding: 100px;
+    text-align: center;
+}
+
+.header .lower-top .btn{
+    margin: 20px;
+}
+
+.nav .nav-bar{
+    display: flex;
+    background-color: rgb(232, 197, 146);
+    list-style: none;
+}
+.nav .nav-bar li{
+    padding: 10px;    
+}
+.nav .nav-bar li a{
+    text-decoration: none;
+}
+
+.main-section{
+    display: flex;
+    
+    background-color: aqua;
+    height: 80vh;
+    width: 100%;
+}
+.main-section .leftpan{
+    display: flex;
+    width: 20%;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main-section .main{
+    display: flex;
+    background-color: brown;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.main-section .rightpan{
+    display: flex;
+    background-color: aquamarine;
+    width: 20%;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5rem;
+  
+}
+
+
+.footer{
+    background-color: chartreuse;
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+}
+
+.icon{
+    
+}
+.twitter{
+    font-size: 4rem;
+    color: rgb(26, 187, 231);
+}
+.youtube{
+    font-size: 4rem;
+    color: rgb(190, 19, 19);
+}
+.apple{
+    font-size: 4rem;
+    color: rgb(56, 49, 49);
+}
