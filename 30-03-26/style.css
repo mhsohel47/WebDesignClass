@@ -1,0 +1,15 @@
+.ci {
+  height: 500px;      /* Set a fixed height */
+  width: 100%;        /* Ensure the image takes the full width of its container */
+  object-fit: cover;  /* This is crucial: it crops the image to cover the area while maintaining aspect ratio */
+  object-position: center; /* Centers the image within the fixed height area */
+}
+
+@media (max-width: 500px) {
+  .ci {
+    max-height: 300px; /* Shorter height for mobile devices */
+  }
+}
+.row{
+    columns: 300px;
+}
