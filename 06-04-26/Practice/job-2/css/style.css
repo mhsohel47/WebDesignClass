@@ -1,0 +1,10 @@
+.effect a:hover{
+    background-color: azure;
+    color: black;
+    border-radius: 15px;
+    
+}
+
+.caro img{
+    height: 84vh;
+}

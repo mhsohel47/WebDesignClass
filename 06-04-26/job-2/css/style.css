@@ -1,0 +1,6 @@
+.effect a:hover{
+    background-color: green;
+    color: rgb(186, 11, 255);
+    border-radius: 10px;
+    
+}
