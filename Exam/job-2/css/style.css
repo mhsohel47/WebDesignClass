@@ -1,0 +1,39 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.im{
+    border-radius: 50px;
+    
+}
+
+.nav-item a:hover{
+    background-color: bisque;
+    border-radius: 15px;
+}
+.navbar{
+    background-color: indigo;
+}
+.card{
+    text-align: center;
+   
+}
+.caro img{
+    height: 90vh;
+}
+
+.star{
+    color: orange;
+    position: relative;
+  top: 1px;
+  left: 1px;
+  z-index: 10;
+    
+}
+
+.submit-btn:hover{
+    background-color: rgb(13, 1, 21);
+    color: white;
+}

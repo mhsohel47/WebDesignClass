@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website title -->
+    <title>Musical Band</title>
+
+    <!-- Browser tab icon -->
+    <link rel="shortcut icon" href="./img/band-logo.jpg" type="image/x-icon">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <section class="sticky-top">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid fw-bold">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./img/band-logo.jpg" width="40px" class="im" alt="image"  /> Musical Band</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- Banner -->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner caro">
+            <div class="carousel-item active">
+                <img src="./img/b1.jpg" class="d-block w-100" alt="Band Banner 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/b2.jpg" class="d-block w-100" alt="Band Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/b3.jpg" class="d-block w-100" alt="Band Banner 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Band Details -->
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="text-center fs-1 border-start border-danger  fw-bold fst-italic">
+                        Band Details
+                    </h3>
+                    <p class="small text-muted text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, autem, assumenda explicabo at eius excepturi laborum mollitia quo quis consectetur id nisi magni, ipsum earum. Accusantium exercitationem modi repellendus debitis inventore, possimus minima aut velit nemo eligendi nobis obcaecati et ea quasi maiores quae, voluptatem omnis adipisci. Beatae, debitis aliquid molestiae necessitatibus tempora rem voluptates cum hic nostrum ducimus et veritatis quia, quam non nam corporis cupiditate! Voluptate quaerat esse fugiat, aspernatur expedita pariatur veritatis aperiam a odio provident libero quam ratione aut consectetur tempore id eius cupiditate facere et tempora soluta vitae. Repellendus optio porro culpa magni, corrupti necessitatibus.
+            </div>
+                <div class="col-6">
+                    <img src="./img/bd1.jpg" width="100%" height="300px" alt="Band Details Image" class="rounded" />
+                </div>
+
+        </div>
+    </section>
+
+
+     <!-- Staff Profile -->
+    <section class="my-5">
+        <div>
+            <h3 class="text-center fw-bold fs-1 border-start border-danger px-3 fst-italic">
+                Band Members
+            </h3>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-4 gap-5 flex-wrap">
+            <div class="text-center">
+                <img src="./img/male-employee.webp" width="150px" height="150px" alt="staff1" class="rounded-circle" />
+                <h5 class="mt-2">John Doe</h5>
+                <p class="text-muted">Head Vocalist</p>
+            </div>
+            <div class="text-center">
+                <img src="./img/female-employee.jpg" width="150px" height="150px" alt="staff2" class="rounded-circle" />
+                <h5 class="mt-2">Jane Smith</h5>
+                <p class="text-muted">Lead Guitarist</p>
+            </div>
+            <div class="text-center">
+                <img src="./img/male-employee.webp" width="150px" height="150px" alt="staff3" class="rounded-circle" />
+                <h5 class="mt-2">Mike Johnson</h5>
+                <p class="text-muted">Bass Guitarist</p>
+            </div>
+            <div class="text-center">
+                <img src="./img/female-employee.jpg" width="150px" height="150px" alt="staff4" class="rounded-circle" />
+                <h5 class="mt-2">Emily Davis</h5>
+                <p class="text-muted">Drummer</p>
+            </div>
+             <div class="text-center">
+                <img src="./img/male-employee.webp" width="150px" height="150px" alt="staff3" class="rounded-circle" />
+                <h5 class="mt-2">Mike Johnson</h5>
+                <p class="text-muted">Bass Guitarist</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Fan's Feedback -->
+    <section>
+        <div class="container my-3">
+            <h3 class=" text-center fs-1 border-start border-danger  fw-bold fst-italic">
+                Fan's Feedback
+            </h3>
+            <p class="small text-muted text-center">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+                debitis quis. Quasi ipsum rerum dolore debitis iste doloremque quia
+                nemo?
+            </p>
+            <div class="d-flex mt-3">
+                <div>
+                    <img src="./img/female-employee.jpg" width="100px" alt="image" class="rounded-circle" />
+                </div>
+                <div>
+                    <p class="p-3 text-center lead">
+                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                        voluptates officiis numquam reiciendis dolor facilis porro quos in
+                        ducimus eum?"
+                    </p>
+                    <h5 class="text-center star">Jessie</h5>
+                    <div class="text-center mb-1 star">
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section>
+        <div class="container my-3">
+           
+            <p class="small text-muted text-center">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+                debitis quis. Quasi ipsum rerum dolore debitis iste doloremque quia
+                nemo?
+            </p>
+            <div class="d-flex mt-3">
+                <div>
+                    <img src="./img/male-employee.webp" width="100px" alt="image" class="rounded-circle" />
+                </div>
+                <div>
+                    <p class="p-3 text-center lead">
+                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                        voluptates officiis numquam reiciendis dolor facilis porro quos in
+                        ducimus eum?"
+                    </p>
+                    <h5 class="text-center star">John Doe</h5>
+                    <div class="text-center mb-1 star">
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container my-3">
+          
+            <p class="small text-muted text-center">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+                debitis quis. Quasi ipsum rerum dolore debitis iste doloremque quia
+                nemo?
+            </p>
+            <div class="d-flex mt-3">
+                <div>
+                    <img src="./img/female-employee.jpg" width="100px" alt="image" class="rounded-circle" />
+                </div>
+                <div>
+                    <p class="p-3 text-center lead">
+                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                        voluptates officiis numquam reiciendis dolor facilis porro quos in
+                        ducimus eum?"
+                    </p>
+                    <h5 class="text-center star">Jessie</h5>
+                    <div class="text-center mb-1 star">
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <!-- Gallery -->
+    <section class="my-5">
+        <div>
+            <h3 class="text-center fw-bold fs-1 border-start border-danger px-3 fst-italic">
+                Gallery
+            </h3>
+
+
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-4 gap-5 flex-wrap">
+            <img src="./img/g1.jpg" width="300px" height="200px" alt="gallery1" class="rounded" />
+            <img src="./img/g2.jpg" width="300px" height="200px" alt="gallery2" class="rounded" />
+            <img src="./img/g3.jpg" width="300px" height="200px" alt="gallery3" class="rounded" />
+            <img src="./img/g4.jpg" width="300px" height="200px" alt="gallery4" class="rounded" />
+            <img src="./img/g5.jpg" width="300px" height="200px" alt="gallery5" class="rounded" />
+            <img src="./img/g6.jpg" width="300px" height="200px" alt="gallery6" class="rounded" />
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-info-subtle">
+        <div class="container pb-3">
+            <div class="row pt-3 border-bottom border-dark">
+                <div class="col-4">
+                    <div>
+                        <img src="./img/b3.jpg" alt="colum-image" class="img-fluid rounded" width="80px"
+                            height="100px" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                        minima sapiente molestiae ea incidunt, aliquam natus ut alias
+                        consequatur itaque nostrum placeat corrupti voluptatum sed
+                        suscipit quibusdam eos dolore! Consequatur?
+                    </p>
+                </div>
+                <div class="col-4 text-center">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-decoration-none color text-dark fs-5" href="#">Popular</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none color text-dark fs-5" href="#">Dhaka</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none color text-dark fs-5" href="#">BangalDesh</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none color text-dark fs-5" href="#">Bogura</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h4 class="text-center">About Us</h4>
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter Your Email" class="form-control" />
+                        <button class="btn btn-outline-success">Subscribe</button>
+                    </div>
+                    <p class="small text-muted pb-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos, quo!
+                    </p>
+                    <div class="text-center">
+                        <a class="fs-2 text-primary" href=""><i class="fa-brands fa-facebook"> </i></a>
+                        <a class="fs-2 text-primary-emphasis" href=""><i class="fa-brands fa-linkedin"> </i></a>
+                        <a class="fs-2 text-danger" href=""><i class="fa-brands fa-youtube"> </i></a>
+                        <a class="fs-4 text-light bg-dark rounded" href=""><i class="fa-brands fa-tiktok"> </i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center py-2 fs-6">
+                Copyright &copy; 2026 MusicalBand.com.bd
+            </p>
+        </div>
+    </footer>
+
+
+
+    <!-- JavaScript links -->
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
