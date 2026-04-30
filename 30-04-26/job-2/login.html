@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sushi Shop</title>
+  <!-- PageIcon -->
+  <link rel="icon" type="image/x-icon" href="./img/sushi-logo.png" />
+  <!-- cssLink -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <!-- Font awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <h5 class="text-info fw-bold">suhishop@gmail.com</h5>
+        <h5 class="text-info ms-3 fw-bold">01706204226</h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link btn btn-info border-0" aria-current="page" href="#">Wishlist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-info border-0" aria-current="page" href="#">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-info border-0" aria-current="page" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Navbar -->
+  <section class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid rounded-circle" src="./img/sushi-logo.png"
+            width="40px" alt="Sushi Logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item fw-bold">
+              <a class="nav-link btn btn-success" aria-current="page" href="./index.html">Home</a>
+            </li>
+
+            <li class="nav-item fw-bold">
+              <a class="nav-link btn btn-success" aria-current="page" href="./product.html">Product</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link btn btn-success" aria-current="page" href="./product-datails.html">Product Details</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link btn btn-success" aria-current="page" href="./cart.html">Cart</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link btn btn-success" aria-current="page" href="./login.html">Log In</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link btn btn-success" aria-current="page" href="./signup.html">Sign Up</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div>
+              <a href="cart.html"><i class="fas fa-shopping-cart fs-3 me-2"></i></a>
+            </div>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+<!--Page Title-->
+<section>
+<h1 class="text-center mt-3">Log In</h1>
+<nav aria-label="breadcrumb ">
+  <ol class="breadcrumb d-flex justify-content-center align-items-center">
+    <li class="breadcrumb-item "><a href="./index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Log In</li>
+  </ol>
+</nav>
+
+
+<!-- Log In-->
+ <section>
+    <div class="container shadow p-3 rounded-3" style="max-width: 700px;">
+        <form class="row g-3 " id="Loginpopup" onsubmit="alert('Loged In Successfully')" >
+ 
+ 
+  <div class="col-md-12">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" placeholder="Enter Your User" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12">
+    <label for="validationCustom03" class="form-label">Password</label>
+    <input type="password" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid password
+    </div>
+  </div>
+
+
+
+  
+
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" >
+      <label class="form-check-label" for="invalidCheck">
+        Remember Me
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12 text-center">
+    <button class="btn btn-outline-danger" type="submit">Log In</button>
+  </div>
+</form>
+    </div>
+ </section>
+
+
+
+
+
+
+  
+ 
+
+
+
+  <!-- Footer -->
+  <footer class="bg-info-subtle mt-4 pt-3">
+    <div class="container pb-3">
+      <div class="row pt-3 border-bottom border-dark">
+        <div class="col-4">
+          <div>
+            <img src="./img/b3.jpg" alt="colum-image" class="img-fluid rounded" width="80px" height="100px" />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            minima sapiente molestiae ea incidunt, aliquam natus ut alias
+            consequatur itaque nostrum placeat corrupti voluptatum sed
+            suscipit quibusdam eos dolore! Consequatur?
+          </p>
+        </div>
+        <div class="col-4 text-center">
+          <h4>Quick Links</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-decoration-none color link-danger text-dark fs-5" href="#">Popular</a>
+            </li>
+            <li>
+              <a class="text-decoration-none color link-danger text-dark fs-5" href="#">Dhaka</a>
+            </li>
+            <li>
+              <a class="text-decoration-none color link-danger text-dark fs-5" href="#">BangalDesh</a>
+            </li>
+            <li>
+              <a class="text-decoration-none color link-danger text-dark fs-5" href="#">Bogura</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-4">
+          <h4 class="text-center">About Us</h4>
+          <div class="input-group">
+            <input type="email" placeholder="Enter Your Email" class="form-control" />
+            <button class="btn btn-outline-success">Subscribe</button>
+          </div>
+          <p class="small text-muted pb-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos, quo!
+          </p>
+          <div class="text-center">
+            <a class="fs-2 text-primary" href=""><i class="fa-brands fa-facebook"> </i></a>
+            <a class="fs-2 text-primary-emphasis" href=""><i class="fa-brands fa-linkedin"> </i></a>
+            <a class="fs-2 text-danger" href=""><i class="fa-brands fa-youtube"> </i></a>
+            <a class="fs-4 text-light bg-dark rounded" href=""><i class="fa-brands fa-tiktok"> </i></a>
+          </div>
+        </div>
+      </div>
+      <p class="text-center py-2 fs-6">
+        Copyright &copy; 2026 SushiFood.com.bd
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- javaScript -->
+  <script src="./js/script.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
